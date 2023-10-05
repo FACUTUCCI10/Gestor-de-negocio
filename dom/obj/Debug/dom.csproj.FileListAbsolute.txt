@@ -1,0 +1,6 @@
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\dom\bin\Debug\dom.dll
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\dom\bin\Debug\dom.pdb
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\dom\obj\Debug\dom.csproj.AssemblyReference.cache
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\dom\obj\Debug\dom.csproj.CoreCompileInputs.cache
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\dom\obj\Debug\dom.dll
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\dom\obj\Debug\dom.pdb

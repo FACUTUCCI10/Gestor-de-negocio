@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -34,9 +35,9 @@ namespace Gestor_de_negocio
 
         private void frmGestorNegocio_Load(object sender, EventArgs e)
         {
+           
             try
             {
-
                 Cargar();
                 cboCampo.Items.Add("Marca");
                 cboCampo.Items.Add("Categoria");
@@ -195,6 +196,7 @@ namespace Gestor_de_negocio
                 string campo = cboCampo.SelectedItem.ToString();
                 string criterio = cboCriterio.SelectedItem.ToString();
                 string filtro = txtFiltroAvanzado.Text;
+                //string filtro = cboCriterio.SelectedItem.ToString();
                 dgvArticulos.DataSource = negocio.filtrar(campo, criterio, filtro);
                
             }
@@ -207,6 +209,11 @@ namespace Gestor_de_negocio
         }
         private void cboCampo_SelectedIndexChanged(object sender, EventArgs e)
         {
+            List<Articulo> lista = new List<Articulo>();
+            SqlConnection conexion = new SqlConnection();
+            SqlCommand comando = new SqlCommand();
+            SqlDataReader lector;
+
             string opcion = cboCampo.SelectedItem.ToString();
             if (opcion == "Precio")
             {
@@ -214,14 +221,49 @@ namespace Gestor_de_negocio
                 cboCriterio.Items.Add("Mayor a");
                 cboCriterio.Items.Add("Menor a");
                 cboCriterio.Items.Add("Igual a");
+
+            }
+            else if (opcion == "Categoria")
+            {
+                cboCriterio.Items.Clear();
+                conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_DB; integrated security=true";
+                comando.CommandType = System.Data.CommandType.Text;
+                comando.CommandText = "Select Descripcion from categorias";
+                comando.Connection = conexion;
+                conexion.Open();
+                lector = comando.ExecuteReader();
+              
+
+                while (lector.Read())
+                {
+                    string categoria = lector["descripcion"].ToString();
+                    cboCriterio.Items.Add(categoria);
+                   
+                }
+                conexion.Close();
             }
             else
             {
                 cboCriterio.Items.Clear();
-                cboCriterio.Items.Add("Comienza con");
-                cboCriterio.Items.Add("Termina con");
-                cboCriterio.Items.Add("contiene");
+                conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_DB; integrated security=true";
+                comando.CommandType = System.Data.CommandType.Text;
+                comando.CommandText = "Select descripcion from marcas";
+                comando.Connection = conexion;
+                conexion.Open();
+                lector = comando.ExecuteReader();
+                
+
+                while (lector.Read())
+                {
+                    string marca = lector["descripcion"].ToString();
+                    cboCriterio.Items.Add(marca);
+                    
+                }
+                conexion.Close();
+
+
             }
+            
         }
 
         private void frmGestorNegocio_ResizeEnd(object sender, EventArgs e)

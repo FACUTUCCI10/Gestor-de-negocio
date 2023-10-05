@@ -199,7 +199,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Aquamarine;
+            this.button1.BackColor = System.Drawing.Color.Plum;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Location = new System.Drawing.Point(51, 365);
             this.button1.Name = "button1";
@@ -211,7 +211,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Aquamarine;
+            this.button2.BackColor = System.Drawing.Color.Plum;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Location = new System.Drawing.Point(198, 365);
             this.button2.Name = "button2";

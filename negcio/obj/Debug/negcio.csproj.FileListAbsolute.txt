@@ -1,0 +1,18 @@
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\negcio\bin\Debug\negcio.dll
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\negcio\bin\Debug\negcio.pdb
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\negcio\bin\Debug\dom.dll
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\negcio\bin\Debug\dom.pdb
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\negcio\obj\Debug\negcio.csproj.AssemblyReference.cache
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\negcio\obj\Debug\negcio.csproj.CoreCompileInputs.cache
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\negcio\obj\Debug\negcio.csproj.CopyComplete
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\negcio\obj\Debug\negcio.dll
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\negcio\obj\Debug\negcio.pdb
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\negcio\bin\Debug\negcio.dll
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\negcio\bin\Debug\negcio.pdb
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\negcio\bin\Debug\dom.dll
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\negcio\bin\Debug\dom.pdb
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\negcio\obj\Debug\negcio.csproj.AssemblyReference.cache
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\negcio\obj\Debug\negcio.csproj.CoreCompileInputs.cache
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\negcio\obj\Debug\negcio.csproj.CopyComplete
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\negcio\obj\Debug\negcio.dll
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\negcio\obj\Debug\negcio.pdb

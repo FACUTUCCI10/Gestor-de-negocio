@@ -1,0 +1,38 @@
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\bin\Debug\Gestor de negocio.exe.config
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\bin\Debug\Gestor de negocio.exe
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\bin\Debug\Gestor de negocio.pdb
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.csproj.AssemblyReference.cache
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.csproj.SuggestedBindingRedirects.cache
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor_de_negocio.frmAgregarProducto.resources
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor_de_negocio.frmGestorNegocio.resources
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor_de_negocio.Properties.Resources.resources
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.csproj.GenerateResource.cache
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.csproj.CoreCompileInputs.cache
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.exe
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.pdb
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\bin\Debug\dom.dll
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\bin\Debug\dom.pdb
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.csproj.CopyComplete
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\bin\Debug\negcio.dll
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\bin\Debug\negcio.pdb
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor_de_negocio.NuevaCategoria.resources
+C:\Users\Facu\Desktop\C# NIVEL-2\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor_de_negocio.NuevaMarca.resources
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\bin\Debug\Gestor de negocio.exe.config
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\bin\Debug\Gestor de negocio.exe
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\bin\Debug\Gestor de negocio.pdb
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\bin\Debug\dom.dll
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\bin\Debug\negcio.dll
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\bin\Debug\dom.pdb
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\bin\Debug\negcio.pdb
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.csproj.AssemblyReference.cache
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.csproj.SuggestedBindingRedirects.cache
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor_de_negocio.frmAgregarProducto.resources
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor_de_negocio.frmGestorNegocio.resources
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor_de_negocio.NuevaCategoria.resources
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor_de_negocio.NuevaMarca.resources
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor_de_negocio.Properties.Resources.resources
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.csproj.GenerateResource.cache
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.csproj.CoreCompileInputs.cache
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.csproj.CopyComplete
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.exe
+C:\Users\Facu\Desktop\tp final pp\TPFINAL_Tucci\Gestor de negocio\obj\Debug\Gestor de negocio.pdb

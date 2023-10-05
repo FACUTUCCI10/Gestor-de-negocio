@@ -27,7 +27,7 @@ namespace Gestor_de_negocio
 
             InitializeComponent();
             this.articulo = articulo;
-            Text = "Modificar pokemon";
+            Text = "Modificar producto";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -117,7 +117,7 @@ namespace Gestor_de_negocio
             catch (Exception ex)
             {
 
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show("imagen agregada correctamente,porfavor cierre la ventana en la que agregó ");
             }
         }
 
@@ -185,11 +185,17 @@ namespace Gestor_de_negocio
                return true;
 
             }
-            if (!(soloNumeros(txtPrecio.Text)))
+            //if (!(soloNumeros(txtPrecio.Text)))
+            //{
+            //    MessageBox.Show("Ingrese sólo números, por favor");
+            //    return true;
+            //}
+            if (!decimal.TryParse(txtPrecio.Text, out decimal precio))
             {
-                MessageBox.Show("Ingrese sólo números, por favor");
+                MessageBox.Show("Ingrese un valor valido para 'precio' (solo números) ");
                 return true;
             }
+
             if (string.IsNullOrEmpty(txtPrecio.Text))
             {
                 MessageBox.Show(" Ingrese un valor para 'Precio' ");

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -134,8 +135,8 @@ namespace negcio
             AccesoAdatos datos = new AccesoAdatos();
             try
             {
-
-                string consulta = "Select  Codigo, A.Id, Nombre, A.Descripcion, ImagenUrl, IdMarca, IdCategoria, C.Descripcion as Categoria, M.Descripcion as Marca, Precio From ARTICULOS A, CATEGORIAS C, MARCAS M where C.id = IdCategoria AND M.id = idMarca AND ";
+                
+                string consulta = "Select  Codigo, A.Id, Nombre, A.Descripcion, ImagenUrl, IdMarca, IdCategoria, C.Descripci+on as Categoria, M.Descripcion as Marca, Precio From ARTICULOS A, CATEGORIAS C, MARCAS M where C.id = IdCategoria AND M.id = idMarca AND ";
                 
 
                 if (campo == "Precio")
@@ -152,40 +153,49 @@ namespace negcio
                             consulta += "Precio = " + filtro;
                             break;
                     }
-                }
-                else if (campo == "Marca")
-                {
-                    switch (criterio)
-                    {
-                        case "Comienza con":
-                            consulta += "M.Descripcion like '" + filtro + "%' ";
-                            break;
-                        case "Termina con":
-                            consulta += "M.Descripcion like '%" + filtro + "'";
-                            break;
-                        default:
-                            consulta += "M.Descripcion like '%" + filtro + "%'";
-                            break;
-                    }
+                  
                 }
                 else
                 {
-                    switch (criterio)
-                    {
-                        case "Comienza con":
-                            consulta += "C.Descripcion like '" + filtro + "%' ";
-                            break;
-                        case "Termina con":
-                            consulta += "C.Descripcion like '%" + filtro + "'";
-                            break;
-                        default:
-                            consulta += "C.Descripcion like '%" + filtro + "%'";
-                            break;
 
-                    }
-                    
+                    consulta += "M.Descripcion = '" + criterio + "'";
+
+
+                        
                 }
-                
+                //else if (campo == "Marca")
+                //{
+                //    switch (criterio)
+                //    {
+                //        case "Comienza con":
+                //            consulta += "M.Descripcion like '" + filtro + "%' ";
+                //            break;
+                //        case "Termina con":
+                //            consulta += "M.Descripcion like '%" + filtro + "'";
+                //            break;
+                //        default:
+                //            consulta += "M.Descripcion like '%" + filtro + "%'";
+                //            break;
+                //    }
+                //}
+                //else
+                //{
+                //    switch (criterio)
+                //    {
+                //        case "Comienza con":
+                //            consulta += "C.Descripcion like '" + filtro + "%' ";
+                //            break;
+                //        case "Termina con":
+                //            consulta += "C.Descripcion like '%" + filtro + "'";
+                //            break;
+                //        default:
+                //            consulta += "C.Descripcion like '%" + filtro + "%'";
+                //            break;
+
+                //    }
+
+                //}
+
                 datos.SetearConsulta(consulta);
                 datos.EjecutarLectura();
                 while (datos.Lector.Read())
@@ -211,10 +221,10 @@ namespace negcio
                 }
                 return lista;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
         }
     }
